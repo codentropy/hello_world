@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh src/*.sh
+                sh src/ok.sh
             }
         }
     }
